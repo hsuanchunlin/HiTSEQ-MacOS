@@ -1,6 +1,7 @@
-# HiTSEQ for macOS
+![](Images/EQ128.png)
+# HiTSEQ for macOS 
 
-No need to installing Python or R - just use your Mac and HiTSEQ-MacOS can provide you with thousands of affinities in a matter of
+No need to install Python or R - your Mac and HiTSEQ-MacOS can provide you with thousands of affinities in a matter of
 seconds, complete with data visualization capabilities. Easy to use and lightning fast!
 
 ## System Requirement
@@ -67,4 +68,5 @@ The top 10 sequences and 10 sequences with lowest RKa will be shown here.
 ### Tutorial
 
 A sample dataset is provided for your convenince. Just click **Load sample data** and **Calculate** to see what will happen.
+
 ![](Images/Tutorial01.png)
