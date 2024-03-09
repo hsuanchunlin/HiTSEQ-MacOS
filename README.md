@@ -1,12 +1,18 @@
 # HiTSEQ for macOS
 
-There is no need to install Python or R, just use your mac and HiTSEQ-MacOS can give you thousands of affinities in seconds with data visualization. Easy to use.
+No need to installing Python or R - just use your Mac and HiTSEQ-MacOS can provide you with thousands of affinities in a matter of
+seconds, complete with data visualization capabilities. Easy to use and lightning fast!
 
 ## System Requirement
 macOS 14.0 (Sonoma)
 
+
+## Installation
+
+Download the HiTSEQ-MacOS.zip file and unzip it, and you're ready to use it.
+
 ## Input data format
-1. Your csv file does **NOT** have headers.
+1. The csv file does **NOT** have headers.
 2. There are **3** columns in your csv file.
 3. The first column is for random sequence varients. Usually it contains sequences with 6 to 7 nucleotides.
 4. The second column is for your control point without any binding performed. **Just your random library**.
@@ -50,8 +56,7 @@ There will be a column indicate N or Y. **N** means the reads of the sequence va
 
 ### Visualization
 
-Here two histograms are provided for observe data distribution. The difference is the x axis. One is Relative Rate Constant (RKa) and another one is log(RKa).The Y axis is Frequency (sequence count).
-
+Here, two histograms are provided for your observation. The difference lies in the x-axis. One represents Relative Rate Constant (RKa), while the other depicts log(RKa). The y-axis, on the other hand, shows Frequency (sequence count).
 ![](Images/Bar01.png)
 
 ### Description
