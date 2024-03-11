@@ -11,12 +11,12 @@ For detail, please see [Apple's document](https://developer.apple.com/documentat
 
 ## Installation
 
-Download the HiTSEQ-MacOS.zip file and unzip it, and you're ready to use it.
+To begin using HiTSEQ on a Mac, download the **HiTSEQ-MacOS.zip** file and extract its contents. Once unzipped, you'll be able to access and utilize the software without any further steps.
 
 ## Input data format
 1. The csv file does **NOT** have headers.
 2. There are **3** columns in your csv file.
-3. The first column is for random sequence varients. Usually it contains sequences with 6 to 7 nucleotides.
+3. The first column is for random sequence variants. Usually it contains sequences with 6 to 7 nucleotides.
 4. The second column is for your control point without any binding performed. **Just your random library**.
 5. The third column is for your **binding point**.
 6. The data type for each column is [String, Integer, Integer]
@@ -46,19 +46,20 @@ Data loading function will load your csv file and check the format for you.
 
 ### Calculation
 Now we can go to **Calculation** function.
-Just follow steps 1 to 5 and you will get your results.
+Just follow steps 1 to 5, and you will get your results.
 #### Parameters
-- Enzyme Concentration: It is the concentration of your enzyme/protein/RNA/DNA etc. when you perform the binding experiment for the second column.
-- Referece Sequence: The sequence varient you usually use for normalize/compare your results.
-- Filter count: When performing sample preparation, there might be issues which cause the sequences can not be amplified well. Those issues may include RT, PCR, or anything. Setting this threshold can help you mark sequences with low reads. Even though the app still calculate and export all sequence varients for you, you can filter them out by the N or Y mark in Excel or any tool.
 
-There will be a column indicate N or Y. **N** means the reads of the sequence varient in the first column is less than the threshold.
+- Enzyme Concentration: It is the concentration of your enzyme/protein/RNA/DNA etc. when you performed the binding experiment for the second column.
+- Reference Sequence: The sequence variant you usually use for normalize/compare your results.
+- Filter count: When performing sample preparation, there might be issues which cause the sequences can not be amplified well. Those issues may include RT, PCR, or anything. Setting this threshold can help you mark sequences with low reads. Even though the app still calculate and export all sequence variants for you, you can filter them out by the N or Y mark in Excel or any tool.
+
+There will be a column indicate N or Y. **N** means the reads of the sequence variant in the first column is less than the threshold.
 
 ![](Images/Calculate01.png)
 
 ### Visualization
 
-Here, two histograms are provided for your observation. The difference lies in the x-axis. One represents Relative Rate Constant (RKa), while the other depicts log(RKa). The y-axis, on the other hand, shows Frequency (sequence count).
+Two histograms are provided for your observation. The difference lies in the x-axis. One represents Relative Rate Constant (RKa), while the other depicts log(RKa). The y-axis, on the other hand, shows Frequency (sequence count).
 ![](Images/Bar01.png)
 
 ### Description
@@ -68,6 +69,6 @@ The top 10 sequences and 10 sequences with lowest RKa will be shown here.
 
 ### Tutorial
 
-A sample dataset is provided for your convenince. Just click **Load sample data** and **Calculate** to see what will happen.
+A sample dataset is provided for your convenience. Click **Load sample data** and **Calculate** to play around.
 
 ![](Images/Tutorial01.png)
