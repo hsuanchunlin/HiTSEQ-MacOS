@@ -1,8 +1,7 @@
 ![](Images/EQ128.png)
 # HiTSEQ for macOS 
 
-No need to install Python or R - your Mac and HiTSEQ-MacOS can provide you with thousands of affinities in a matter of
-seconds, complete with data visualization capabilities. Easy to use and lightning fast!
+No need to install Python or R - your Mac and HiTSEQ-MacOS can provide you results in seconds, complete with data visualization capabilities. Easy to use and lightning fast!
 
 ## System Requirement
 macOS 14.0 (Sonoma)
