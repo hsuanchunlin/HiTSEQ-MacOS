@@ -5,7 +5,8 @@ No need to install Python or R - your Mac and HiTSEQ-MacOS can provide you resul
 
 ## System Requirement
 macOS 14.0 (Sonoma)
-
+HiTS-EQ-MacOS app is **notarized**.
+For detail, please see 
 
 ## Installation
 
